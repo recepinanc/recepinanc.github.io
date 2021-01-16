@@ -1,3 +1,5 @@
+A warm welcome to you all!
+
 > <i>Verba Volant, Scripta Manent!</i> - <strong>Latin Proverb</strong> <br> Spoken words fly away, written words remain.
 
 Hey, it's Recep! You can learn more about me here in the ["About"](/about/) page!  
