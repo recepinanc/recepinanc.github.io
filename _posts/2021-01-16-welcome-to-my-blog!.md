@@ -12,4 +12,4 @@ I took the below three philosophies very seriously as I started my blog:
 
 I hope you enjoy reading as much as I enjoy writing my blog.
 
-<i>To access my older posts please check out: http://medium.com/@recepinancc</i>
+<i>To access my older posts please check out: [http://medium.com/@recepinancc](http://medium.com/@recepinancc)</i>
