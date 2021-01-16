@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Recep Inanc - Software Engineer"
+title                    : "Recep Inanc | Software Engineer"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Recep Inanc"
@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : # "Recep Inanc"
-  avatar           : "/assets/img/avatar.jpg"
-  bio              : "Software Engineer <strong>@Sahibinden</strong><br>Previously <strong>@Twentify</strong>"
+  avatar           : "/assets/images/avatar.jpg"
+  bio              : "Software Engineer <strong>@Sahibinden</strong><br>Previously <strong>@Twentify</strong> <i>Verba Volant, Scripta Manent.</i>"
   location         : # ""
   email            : # recepinancc@gmail.com
   links:
