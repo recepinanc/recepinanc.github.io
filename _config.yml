@@ -95,7 +95,7 @@ analytics:
 author:
   name             : # "Recep Inanc"
   avatar           : "/assets/images/avatar.jpg"
-  bio              : "Software Engineer <strong>@Sahibinden</strong><br>Previously <strong>@Twentify</strong> <i>Verba Volant, Scripta Manent.</i>"
+  bio              : "Software Engineer <strong>@Sahibinden</strong><br>Previously <strong>@Twentify</strong><br><br><i>"Verba Volant, Scripta Manent."</i>"
   location         : # ""
   email            : # recepinancc@gmail.com
   links:
