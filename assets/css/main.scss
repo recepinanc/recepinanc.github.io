@@ -21,8 +21,16 @@
 }
 
 .about-description {
-	margin-top: 0.5em;
+	margin-top: 1em;
 	text-align: center;
+}
+
+.about-story {
+	margin-top: 2em;
+
+	.description {
+		text-align: justify;
+	}
 }
 
 .about-title {

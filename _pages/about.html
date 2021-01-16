@@ -4,6 +4,10 @@ layout: single
 author_profile: false
 ---
 
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
+
+
 <div class="responsive-img-container">
 	<img class="responsive-img" src="/assets/img/avatar.jpg" alt="Avatar" width="144">
 
@@ -14,6 +18,31 @@ author_profile: false
 		Software Engineer @ <a href="https://www.sahibinden.com/">Sahibinden.com</a> - Previously @ <a href="https://www.twentify.com/">Twentify</a>.
 	</p>
     <p class="description">
-    	"Builds <strong>scalable</strong> and <strong>maintainable</strong> software. Obsessed over <strong>customers</strong>."
+    	"Builds <strong>scalable</strong> and <strong>maintainable</strong> software. Obsessed over <strong>customers</strong>. A <strong>Product-Minded</strong> Engineer."
+    </p>
+</div>
+
+<div class="about-story">
+	<p class="description">
+    	I'm currently working as a <strong>Software Engineer</strong> at <a href="https://www.sahibinden.com/">@Sahibinden.com</a>'s <strong>Search Team</strong>. I enjoy developing <strong>scalable</strong> and <strong>maintainable</strong> software that brings value to others while <strong>customers' needs</strong> being the highest priority at all times. I've been writing code in <strong>Java (with Spring)</strong> and <strong>Javascript (with JQuery, AngularJS)</strong> for the past years. I am also the <strong>Scrum Master</strong> of my team of 10 people.
+    </p>
+    <p class="description">
+    	Previously, I had the chance to experience different fields in software development. I enjoyed writing <strong>Ruby on Rails</strong> at <a href="https://www.twentify.com/">@Twentify</a> as a Fullstack Engineer using technologies like <strong>AWS</strong>, <strong>PostgreSQL</strong>, <strong>Redis</strong>. I also took part in <strong>Android Application</strong> development at <a href="https://www.twentify.com/">@Twentify</a> as an intern.
+    </p>
+    <p class="description">
+    	I blog what I learn and learn as I blog. My blog is mostly about <strong>programming in Java</strong>, sometimes I also write about <strong>Software Development</strong> in general.
+    </p>
+    <p class="description description-i">
+    	Some of the other technologies I have working experience with include but are not limited to: <strong>Elasticsearch</strong>, <strong>AWS</strong>, <strong>Python</strong>, <strong>MySQL</strong>, <strong>MongoDB</strong>, <strong>Kafka</strong>, <strong>Memcached</strong>.
+    </p>
+    <p class="description">
+    	Want to learn more? Let's get in touch!
+    	{% if author.links %}
+        {% for link in author.links %}
+          {% if link.label and link.url %}
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </p>
 </div>
