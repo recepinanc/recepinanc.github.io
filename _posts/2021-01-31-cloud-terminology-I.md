@@ -2,7 +2,7 @@ Let's learn about some cloud terms!
 
 I've been coming across different terms about cloud technologies without actually getting my head around what they meant. Recently, I decided to study Cloud Technologies. I started creating a glossary for cloud terms to use them as references for my upcoming posts.
 
-With the first post of the "Cloud Terminology" series we are going to look at a small, but commonly used subset of cloud terms.
+With the first post of the "Cloud Terminology" series, we will look at a small but commonly used subset of cloud terms:
 * Public Cloud
 * Private Cloud
 * Virtual Private Cloud
@@ -17,7 +17,8 @@ As these solutions' levels **go down**, it gives you **more control over the res
 
 And one of the tremendous benefits of the public cloud is that you only pay for what you use. That gives you the ability to **optimize your expenses**.
 
-Take a look at the below diagram to visualize solutions at different levels. Starting from bare-metal, where you got all the control but you have to do almost everything by yourself to get your software up and running, to serverless services where you only concentrate on writing your application code and networking, scaling and all others are handled for you.
+Take a look at the below diagram to visualize solutions at different levels. At the lowest level (bare-metal), you are the most flexible since you got all the control over your system. However, you also have to deal with almost everything by yourself, including scaling, monitoring and, deployment. On the highest level (Serverless, FaaS), you can concentrate solely on writing your application. You give up some of the flexibility for more convenience.
+
 
 {% include figure image_path="../assets/images/content/different_levels_of_abstraction.png" alt="Different levels of cloud service abstractions" caption="By Nate Schutta (Developer Advocate, Pivotal) at SpringOne Platform 2018" %}
 
@@ -27,17 +28,17 @@ The Private Cloud is having a public cloud environment on the infrastructure tha
 
 # Virtual Private Cloud
 
-A Virtual Private Cloud is where a public cloud's resources are divided into divisions ("private clouds"). Each division is isolated from each other and then assigned to a different owner, making them feel like they have their private cloud - but it's only there virtually. Just like virtual machines, there are no actual separate machines but, we get the feeling of having separate machines with isolation. Virtual Private Clouds are a type of [Hybrid Clouds](https://www.redhat.com/en/topics/cloud-computing/what-is-hybrid-cloud).
+A Virtual Private Cloud is where a public cloud's resources are divided into divisions ("private clouds"). Each division is isolated from each other and assigned to a different owner. That creates the illusion of feeling they have their private cloud - but it's only there virtually. Virtual Private Clouds are similar to virtual machines where there are no actual physical machines but only the isolation of resources. Virtual Private Clouds are a type of Hybrid Clouds. Virtual Private Clouds are a type of [Hybrid Clouds](https://www.redhat.com/en/topics/cloud-computing/what-is-hybrid-cloud).
 
 {% include figure image_path="../assets/images/content/different_clouds.png" alt="Different Cloud Types Visualization" caption="Different Cloud Types Visualization" %}
 
 # An Analogy
 
-Imagine the **public cloud** as an internet cafe where they have these computers and charge you for the time you use them. The owner of the internet cafe can be thought of as the **vendor** (in real life the vendor could be Amazon, Google, Microsoft, etc.). When you go and there and ask for a computer, they start your session on one of the available computers in the public area with others, using the same underlying infrastructure. 
+Imagine the **public cloud** as an internet cafe where they have these computers and charge you for the time you use them. In that case, the internet cafe is the **vendor** (in real life, this could be Amazon, Google, Microsoft, etc.). When you go and there and ask for a computer, they start your session on one of the available computers in the public area with others, using the same underlying infrastructure. 
 
-And then imagine there are private gaming rooms where they provide you an isolated internet connection from the ones in the public area and the other private gaming rooms. These rooms can be an analogy for **virtual private clouds**. 
+The private gaming rooms, in which they provide you an isolated internet connection from the ones in the public area and the other private gaming rooms. These rooms can be an analogy for **virtual private clouds**. 
 
-Now imagine this internet cafe vendor provides you the service to build one of these private gaming rooms to your house using your house's infrastructure but with their computers and all the software in it. This is the equivalent of a **private cloud**.
+Let's say this internet cafe vendor provides you the service to build one of these private gaming rooms at your house. They use your house's infrastructure but with their computers and all the software in it. That would be the equivalent of a **private cloud**.
 
 # References
 
