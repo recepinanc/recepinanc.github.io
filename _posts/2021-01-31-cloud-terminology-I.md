@@ -1,21 +1,21 @@
 Let's learn about some cloud terms!
 
-I've been hearing bunch of terms about cloud technologies lately, without actually getting my head around what they meant. Recently, I decided to study on that subject and I started to create this glossary of cloud terms, this way I could use them as references for my upcoming posts ans studies on cloud technologies.
+I've been coming across different terms about cloud technologies without actually getting my head around what they meant. Recently, I decided to study Cloud Technologies. I started creating a glossary for cloud terms to use them as references for my upcoming posts.
 
-With the first post of "Cloud Terminology" series we are going to look at a small, but commonly used subset of cloud terms:
+With the first post of the "Cloud Terminology" series we are going to look at a small, but commonly used subset of cloud terms.
 * Public Cloud
 * Private Cloud
 * Virtual Private Cloud
 
 # Public Cloud
 
-A Public Cloud is set of resource that are provided to you and other customers by a vendor.
+A Public Cloud is a set of resources provided to you and other customers by a vendor.
 
-Public Cloud enables us to provision resources on demand according to our needs. There are many different vendors on the public cloud and depending on what you need as you build your software, they may offer you solutions on different abstraction levels.
+The Public Cloud enables us to provision resources on-demand according to our needs. There are many different vendors for public cloud services that offer you variant solutions based on your needs to build your software.
 
-As these solutions' levels goes **deeper**, it gives you **more control on the resource**, however, this also means **greater overhead** since you'll have more things to do for that resource to be working properly.
+As these solutions' levels **go down**, it gives you **more control over the resource**. However, this also means more **overhead** since you'll have more things to do for that resource to be working reliably.
 
-And one of the greatest benefits about public cloud is that you only pay for what you use. This gives you the ability to optimize your expenses.
+And one of the tremendous benefits of the public cloud is that you only pay for what you use. That gives you the ability to **optimize your expenses**.
 
 Take a look at the below diagram to visualize solutions at different levels. Starting from bare-metal, where you got all the control but you have to do almost everything by yourself to get your software up and running, to serverless services where you only concentrate on writing your application code and networking, scaling and all others are handled for you.
 
@@ -23,21 +23,21 @@ Take a look at the below diagram to visualize solutions at different levels. Sta
 
 # Private Cloud
 
-Private Cloud is having public cloud environment on the infrastructure that is dedicated for you. This brings the disadvantage of being limited by your infrastructure's limits and the advantage of having no other neighbors to share your resources with.
+The Private Cloud is having a public cloud environment on the infrastructure that is **dedicated to you**. That brings the disadvantage of being limited by **your infrastructure's limits** and the advantage of having **no other neighbors to share your resources**.
 
 # Virtual Private Cloud
 
-A Virutal Private Cloud is where a public cloud's resources are divided into divisions ("private clouds") and each division is isolated from each other and then assigned to a different owner, making them feel like they have their own private cloud - but actually its only there virtually. Just like virtual machines, there are no actual separate machines but we get the feeling of having separate machines with the isolation. Virtual Private Clouds are a type of [Hybrid Clouds](https://www.redhat.com/en/topics/cloud-computing/what-is-hybrid-cloud).
+A Virtual Private Cloud is where a public cloud's resources are divided into divisions ("private clouds"). Each division is isolated from each other and then assigned to a different owner, making them feel like they have their private cloud - but it's only there virtually. Just like virtual machines, there are no actual separate machines but, we get the feeling of having separate machines with isolation. Virtual Private Clouds are a type of [Hybrid Clouds](https://www.redhat.com/en/topics/cloud-computing/what-is-hybrid-cloud).
 
 {% include figure image_path="../assets/images/content/different_clouds.png" alt="Different Cloud Types Visualization" caption="Different Cloud Types Visualization" %}
 
 # An Analogy
 
-Imagine the public cloud as an internet cafe where they have these computers and they charge you for the time you use them. The owner of the internet cafe can be tought as the vendor (where in real life that can be Amazon, Google, Microsoft etc.). When you go and there and ask for a computer they start your session on one of the available computers in the public area with others, using the same underlying infrastructure. 
+Imagine the **public cloud** as an internet cafe where they have these computers and charge you for the time you use them. The owner of the internet cafe can be thought of as the **vendor** (in real life the vendor could be Amazon, Google, Microsoft, etc.). When you go and there and ask for a computer, they start your session on one of the available computers in the public area with others, using the same underlying infrastructure. 
 
-And then imagine there are private gaming rooms where they provide you a isolated internet connection from the ones in the public area and from the other private gaming rooms. These rooms can be tought as virtual private clouds. 
+And then imagine there are private gaming rooms where they provide you an isolated internet connection from the ones in the public area and the other private gaming rooms. These rooms can be an analogy for **virtual private clouds**. 
 
-Now imagine this internet cafe vendor provides you the service to build one of these private gaming rooms to your house using your house's infrastructure but with their computers and all the software in it.
+Now imagine this internet cafe vendor provides you the service to build one of these private gaming rooms to your house using your house's infrastructure but with their computers and all the software in it. This is the equivalent of a **private cloud**.
 
 # References
 
