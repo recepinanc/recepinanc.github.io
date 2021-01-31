@@ -2,7 +2,7 @@ Let's talk about cloud in simpler terms!
 
 I've been coming across different terms about cloud technologies without actually getting my head around what they meant. Recently, I decided to study Cloud Technologies. I started creating a glossary for cloud terms to use them as references for my upcoming posts.
 
-With the first post of the "Cloud Fundamentals Explained" series, we will look at a small but commonly used subset of cloud terms:
+With the first post of the "Cloud Computing Explained" series, we will look at a small but commonly used subset of cloud terms:
 * Public Cloud
 * Private Cloud
 * Virtual Private Cloud
