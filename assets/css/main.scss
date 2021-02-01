@@ -7,6 +7,42 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+:root {
+	--color-background: #fff;
+    --color-base: #222;
+    --color-primary: #164bc5;
+    --color-secondary: #0f9640;
+    --color-secondary-green: #0f9640;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: #7b7b7b;
+    --color-gray-shadow: #bbb;
+    --color-gray-light-shadow: #d5d5d5;
+    --color-gray-border: #e1e1e1;
+    --color-gray-bg: #f3f3f3;
+    --color-highlight-code-line: #dfe7fb;
+    --color-highlight-code-line-border: #164bc5;
+    --color-emph-special: #0b7130;
+}
+
+html {
+	background-color: var(--color-background);
+}
+
+body {
+	font-weight: 300;
+	background-color: var(--color-background);
+}
+
+.masthead {
+	box-shadow: 0px 1px 10px 1px var(--color-gray);
+	border-bottom: 1px solid var(--color-gray-border);
+}
+
+.greedy-nav {
+	background-color: var(--color-background);
+}
+
 .responsive-img-container {	
    	margin-top: 1rem;
     text-align: center;
@@ -53,4 +89,12 @@ h2 a {
 
 .archive__subtitle {
 	border: none;
+}
+
+.page__content h2 {
+	border: none;
+}
+
+.page__content p {
+	letter-spacing: 0.02em;
 }
